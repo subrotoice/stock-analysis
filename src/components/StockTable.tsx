@@ -120,7 +120,7 @@ const StockTable = () => {
   return (
     <div className="p-4">
       <h1 className="text-2xl font-bold text-center pb-4">
-        Stock Data (A cat {stocks.length} Companies)
+        Stock Data (A cat & PE:3-20, {stocks.length} Companies)
       </h1>
       <div className="flex flex-col md:flex-row gap-4 mb-4">
         <input
